@@ -7,7 +7,10 @@ int main()
     {
         for(j=1;j<=n;j++)
         {
-            printf("%c ",64+i);
+            if(j==1 or i>=j)
+            {
+                printf("%d",j);
+            }
         }
         printf("
 ");
